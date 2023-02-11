@@ -3,3 +3,6 @@
 2- change directory to home using cd command (NOTE: home refered with this symbol ~)
 3- ls -l ==> to list all files with more details like users premission 
 4-ls -la ==> to list all files with more details like users premission and hidden files
+
+## School.mgc
+* compile this file first using this command  ==> file -C -m school.mgc *
