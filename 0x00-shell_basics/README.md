@@ -16,11 +16,11 @@ This script changes the working directory to the user's home directory using the
 
 ## 4. 3-listfiles
 
-This script lists all files in the current directory, including hidden files, using the `ls` command with the `-la` options.
+This script lists all files in the current directory, including hidden files, using the `ls` command with the `-l` options.
 
 ## 5. 4-listmorefiles
 
-This script lists all files in the current directory in a long format, including hidden files, using the `ls` command with the `-lA` options.
+This script lists all files in the current directory in a long format, including hidden files, using the `ls` command with the `-la` options.
 
 ## 6. 5-listfilesdigitonly
 
