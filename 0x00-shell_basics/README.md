@@ -12,7 +12,7 @@ This script lists the contents of the current directory using the `ls` command.
 
 ## 3. 2-bring_me_home
 
-This script changes the working directory to the user's home directory using the `cd` command.
+This script changes the working directory to the user's home directory using the `cd ~` command.
 
 ## 4. 3-listfiles
 
@@ -48,5 +48,5 @@ These scripts provide a foundation for working with shell commands and navigatin
 ## School.mgc
 * compile this file first using this command  ==> file -C -m school.mgc *
 
-####Note 
+#### Note 
 all scripts start with `#!/bin/bash`
