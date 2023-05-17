@@ -47,3 +47,6 @@ These scripts provide a foundation for working with shell commands and navigatin
 
 ## School.mgc
 * compile this file first using this command  ==> file -C -m school.mgc *
+
+####Note 
+all scripts start with `#!/bin/bash`
