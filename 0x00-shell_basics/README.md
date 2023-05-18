@@ -49,6 +49,9 @@ These scripts provide a foundation for working with shell commands and navigatin
    
 ## 12. 11-lists
 command `mv [[:upper:]]* /tmp/u` Moves all files starting with an uppercase letter to the `/tmp/u` directory.
+
+## 13. 12-file_type
+command `file /tmp/iamafile` Determines the file type of the `/tmp/iamafile` file.
    
 3. `rm *~`
    Description: Removes all files ending with a tilde (~) character.
@@ -61,9 +64,6 @@ command `mv [[:upper:]]* /tmp/u` Moves all files starting with an uppercase lett
    
 6. `ls -la . .. /boot`
    Description: Lists detailed information about files and directories in the current directory, the parent directory, and the `/boot` directory.
-   
-7. `file /tmp/iamafile`
-   Description: Determines the file type of the `/tmp/iamafile` file.
    
 8. `ln -s /bin/ls __ls__`
    Description: Creates a symbolic link named `__ls__` in the current directory, pointing to the `/bin/ls` command.
