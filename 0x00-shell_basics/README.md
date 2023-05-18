@@ -42,37 +42,35 @@ This script deletes the file `betty` located in the `/tmp/my_first_directory/` d
 
 This script deletes the `/tmp/my_first_directory/` directory located in the `/tmp/` directory using the `rmdir` command.
 
-These scripts provide a foundation for working with shell commands and navigating the file system.
-
 ## 11. 10-back
  command `cd -` Changes the working directory to the previous directory.
    
 ## 12. 11-lists
-command `mv [[:upper:]]* /tmp/u` Moves all files starting with an uppercase letter to the `/tmp/u` directory.
+command `ls -la . .. /boot` Lists detailed information about files and directories in the current directory, the parent directory, and the `/boot` directory.
 
 ## 13. 12-file_type
 command `file /tmp/iamafile` Determines the file type of the `/tmp/iamafile` file.
+
+## 14. 13-symbolic_link
+command  `ln -s /bin/ls __ls__` Creates a symbolic link named `__ls__` in the current directory, pointing to the `/bin/ls` command.
    
-3. `rm *~`
-   Description: Removes all files ending with a tilde (~) character.
+## 15. 14-copy_html
+command `cp -un *.html ../` Copies all files with the `.html` extension to the parent directory (`../`) while preserving the original file's attributes and only copying if the destination file doesn't exist.
+
+## 16. 100-lets_move
+This command `mv [[:upper:]]* /tmp/u` Moves all files starting with an uppercase letter to the `/tmp/u` directory.
+
+## 17. 101-clean_emacs
+command `rm *~` Removes all files ending with a tilde (~) character.
+
+## 18. 102-tree
+command  `mkdir -p welcome/to/school` Creates the directory `welcome/to/school` with the `-p` option, which creates parent directories if they don't exist.
    
-4. `mkdir -p welcome/to/school`
-   Description: Creates the directory `welcome/to/school` with the `-p` option, which creates parent directories if they don't exist.
-   
-5. `ls -mpa`
-   Description: Lists files and directories in the current directory with a comma-separated format, including hidden files and directories.
-   
-6. `ls -la . .. /boot`
-   Description: Lists detailed information about files and directories in the current directory, the parent directory, and the `/boot` directory.
-   
-8. `ln -s /bin/ls __ls__`
-   Description: Creates a symbolic link named `__ls__` in the current directory, pointing to the `/bin/ls` command.
-   
-9. `cp -un *.html ../`
-   Description: Copies all files with the `.html` extension to the parent directory (`../`) while preserving the original file's attributes and only copying if the destination file doesn't exist.
+## 19. 103-commas
+command `ls -mpa` Lists files and directories in the current directory with a comma-separated format, including hidden files and directories.
 
 ## School.mgc
-* compile this file first using this command  ==> file -C -m school.mgc *
+* compile this file first using this command  ==> `file -C -m school.mgc *`
 
 #### Note 
 all scripts start with `#!/bin/bash`
